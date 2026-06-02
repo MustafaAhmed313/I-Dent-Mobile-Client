@@ -1,0 +1,1 @@
+export './ai_assistant/index.dart';
