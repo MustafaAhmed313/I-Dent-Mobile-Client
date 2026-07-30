@@ -1,5 +1,3 @@
-export 'gradiant_banner.dart';
-
 import 'package:flutter/material.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart';
 import 'package:i_dent_client/core/colors/index.dart';
@@ -10,7 +8,6 @@ class GradiantBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 10),
       width: double.infinity,
       height: 80,
       decoration: BoxDecoration(
