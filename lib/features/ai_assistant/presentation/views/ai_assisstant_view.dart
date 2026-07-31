@@ -3,7 +3,6 @@ export './ai_assisstant_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:i_dent_client/core/index.dart';
-import 'package:i_dent_client/features/ai_assistant/presentation/widgets/sessions_drawer.dart';
 import 'package:i_dent_client/features/index.dart';
 import '../widgets/index.dart';
 

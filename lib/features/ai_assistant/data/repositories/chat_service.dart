@@ -4,7 +4,6 @@ import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
 import 'package:i_dent_client/core/index.dart';
-import 'package:i_dent_client/features/ai_assistant/data/models/session_model.dart';
 import 'package:i_dent_client/features/ai_assistant/data/repositories/chat_repository.dart';
 import 'package:i_dent_client/features/ai_assistant/data/repositories/dtos/get_session_dto.dart';
 import 'package:i_dent_client/features/index.dart';
