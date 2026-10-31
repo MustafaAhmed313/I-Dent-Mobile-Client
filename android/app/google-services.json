@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094713749531",
+    "project_id": "i-dent-f3daf",
+    "storage_bucket": "i-dent-f3daf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094713749531:android:8d6a3840105579196008be",
+        "android_client_info": {
+          "package_name": "com.example.i_dent_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3zdCaVf_YTcDEga6Akbj_ZFS1D0vlftI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
