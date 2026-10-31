@@ -46,4 +46,10 @@ class AppColors {
     ],
     stops: [0.18, 0.45, 1.0],
   );
+
+  static const activeGradient = LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Color(0xFF2B8FE6), Color(0xFF1760B0)],
+  );
 }

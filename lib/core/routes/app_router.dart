@@ -9,8 +9,10 @@ final GoRouter appRouter = GoRouter(
   routes: [
     GoRoute(path: "/", builder: (context, state) => const LoginView()),
     GoRoute(
-        path: AppRoutes.chatbotControlsView,
-        builder: (context, state) => ChatbotControlsView()),
+        path: AppRoutes.homeView, builder: (context, state) => const HomeView()),
+    GoRoute(
+        path: AppRoutes.aiAssistantView,
+        builder: (context, state) => AiAssisstantView()),
     GoRoute(
         path: AppRoutes.chatbotControlsView,
         builder: (context, state) => ChatbotControlsView()),

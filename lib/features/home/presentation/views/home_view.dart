@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:i_dent_client/core/colors/app_colors.dart';
 import 'package:i_dent_client/features/index.dart';
+import 'package:lucide_icons_flutter/lucide_icons.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -43,7 +44,7 @@ class _HomeViewState extends State<HomeView> {
             side: BorderSide(color: AppColors.background, width: 3),
             borderRadius: BorderRadius.circular(25),
           ),
-          child: FaIcon(FontAwesomeIcons.robot, color: AppColors.background),
+          child: Icon(LucideIcons.bot, color: AppColors.background),
         ),
       ),
       bottomNavigationBar: SizedBox(
@@ -56,13 +57,13 @@ class _HomeViewState extends State<HomeView> {
               child: Row(
                 children: [
                   BottomNavigationItem(
-                      icon: FontAwesomeIcons.house,
-                      label: "الرئيسية",
+                      icon: LucideIcons.home,
+                      label: "Home",
                       isSelected: _currentViewIndex == 0,
                       onTap: () => _onItemTapped(0)),
                   BottomNavigationItem(
-                      icon: FontAwesomeIcons.calendar,
-                      label: "مواعيد",
+                      icon: LucideIcons.calendar,
+                      label: "Appointments",
                       isSelected: _currentViewIndex == 1,
                       onTap: () => _onItemTapped(1)),
                 ],
@@ -73,13 +74,13 @@ class _HomeViewState extends State<HomeView> {
               child: Row(
                 children: [
                   BottomNavigationItem(
-                      icon: FontAwesomeIcons.userGroup,
-                      label: "مرضى",
+                      icon: LucideIcons.users,
+                      label: "Patients",
                       isSelected: _currentViewIndex == 3,
                       onTap: () => _onItemTapped(3)),
                   BottomNavigationItem(
-                      icon: FontAwesomeIcons.stethoscope,
-                      label: "الاعدادات",
+                      icon: LucideIcons.settings,
+                      label: "Settings",
                       isSelected: _currentViewIndex == 4,
                       onTap: () => _onItemTapped(4)),
                 ],

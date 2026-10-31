@@ -3,7 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:i_dent_client/core/index.dart';
 
 class BottomNavigationItem extends StatelessWidget {
-  final FaIconData icon;
+  final IconData icon;
   final String label;
   final bool isSelected;
   VoidCallback? onTap;
@@ -25,7 +25,7 @@ class BottomNavigationItem extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 10,),
             child: Column(
               children: [
-                FaIcon(
+                Icon(
                   icon,
                   color: isSelected ? AppColors.primary : null,
                 ),
