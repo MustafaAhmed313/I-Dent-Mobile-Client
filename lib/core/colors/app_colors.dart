@@ -18,13 +18,13 @@ class AppColors {
   static const Gradient gradientPrimary = LinearGradient(
     colors: [primary, primaryGlow],
     begin: Alignment.topLeft,
-    end: Alignment.bottomRight, 
+    end: Alignment.bottomRight,
   );
   static const LinearGradient gradientCard = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
     colors: [
-      Color(0xff0081e7),   
+      Color(0xff0081e7),
       Color(0xff2955d3),
     ],
   );
@@ -32,8 +32,18 @@ class AppColors {
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
     colors: [
-      hintBlue, 
+      hintBlue,
       Colors.white,
     ],
+  );
+  static const LinearGradient gradientNavy = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Color(0xFF0F4C9A), // fades into blue
+      Color(0xFF1565C0), // middle: brightest blue
+      Color(0xFF0D3F85), // lower: deeper blue
+    ],
+    stops: [0.18, 0.45, 1.0],
   );
 }
